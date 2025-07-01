@@ -1,0 +1,268 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "The Last Voyage",
+      "platform": ["PC", "PS5"],
+      "genre": "Adventure",
+      "releaseDate": "2024-10-15",
+      "rating": 8.7,
+      "thumbnail": "https://via.placeholder.com/150?text=The+Last+Voyage"
+    },
+    {
+      "id": 2,
+      "title": "CyberRush",
+      "platform": ["Xbox", "PC"],
+      "genre": "Action",
+      "releaseDate": "2023-07-20",
+      "rating": 7.9,
+      "thumbnail": "https://via.placeholder.com/150?text=CyberRush"
+    },
+    {
+      "id": 3,
+      "title": "Mystic Valley",
+      "platform": ["Switch"],
+      "genre": "Puzzle",
+      "releaseDate": "2025-03-12",
+      "rating": 8.3,
+      "thumbnail": "https://via.placeholder.com/150?text=Mystic+Valley"
+    },
+    {
+      "id": 4,
+      "title": "Steel Horizon",
+      "platform": ["PS5"],
+      "genre": "Shooter",
+      "releaseDate": "2024-01-11",
+      "rating": 7.5,
+      "thumbnail": "https://via.placeholder.com/150?text=Steel+Horizon"
+    },
+    {
+      "id": 5,
+      "title": "Ancient Echo",
+      "platform": ["PC", "Xbox"],
+      "genre": "RPG",
+      "releaseDate": "2022-08-21",
+      "rating": 8.1,
+      "thumbnail": "https://via.placeholder.com/150?text=Ancient+Echo"
+    },
+    {
+      "id": 6,
+      "title": "Pixel Blaze",
+      "platform": ["PC"],
+      "genre": "Platformer",
+      "releaseDate": "2023-11-30",
+      "rating": 7.8,
+      "thumbnail": "https://via.placeholder.com/150?text=Pixel+Blaze"
+    },
+    {
+      "id": 7,
+      "title": "Midnight Drift",
+      "platform": ["PS5", "PC"],
+      "genre": "Racing",
+      "releaseDate": "2025-02-18",
+      "rating": 8.5,
+      "thumbnail": "https://via.placeholder.com/150?text=Midnight+Drift"
+    },
+    {
+      "id": 8,
+      "title": "Castle Siege",
+      "platform": ["PC", "Xbox"],
+      "genre": "Strategy",
+      "releaseDate": "2023-09-05",
+      "rating": 7.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Castle+Siege"
+    },
+    {
+      "id": 9,
+      "title": "Nebula Quest",
+      "platform": ["PC"],
+      "genre": "Sci-Fi",
+      "releaseDate": "2024-06-14",
+      "rating": 9.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Nebula+Quest"
+    },
+    {
+      "id": 10,
+      "title": "DreamWeaver",
+      "platform": ["Switch", "PC"],
+      "genre": "Fantasy",
+      "releaseDate": "2023-04-07",
+      "rating": 8.2,
+      "thumbnail": "https://via.placeholder.com/150?text=DreamWeaver"
+    }
+  ],
+  "music": [
+    {
+      "id": 1,
+      "title": "Echoes of Tomorrow",
+      "artist": "Neon Drift",
+      "genre": "Synthwave",
+      "releaseDate": "2025-01-10",
+      "cover": "https://via.placeholder.com/150?text=Echoes+of+Tomorrow"
+    },
+    {
+      "id": 2,
+      "title": "Silent Frequencies",
+      "artist": "Lunar Loops",
+      "genre": "Ambient",
+      "releaseDate": "2024-05-25",
+      "cover": "https://via.placeholder.com/150?text=Silent+Frequencies"
+    },
+    {
+      "id": 3,
+      "title": "City Pulse",
+      "artist": "Urban Echo",
+      "genre": "Hip-Hop",
+      "releaseDate": "2023-12-19",
+      "cover": "https://via.placeholder.com/150?text=City+Pulse"
+    },
+    {
+      "id": 4,
+      "title": "Retro Glow",
+      "artist": "SynthRider",
+      "genre": "Synthpop",
+      "releaseDate": "2022-10-05",
+      "cover": "https://via.placeholder.com/150?text=Retro+Glow"
+    },
+    {
+      "id": 5,
+      "title": "Crystal Rain",
+      "artist": "Aetherial",
+      "genre": "Chillout",
+      "releaseDate": "2024-03-02",
+      "cover": "https://via.placeholder.com/150?text=Crystal+Rain"
+    },
+    {
+      "id": 6,
+      "title": "Digital Dusk",
+      "artist": "Code8",
+      "genre": "Electronic",
+      "releaseDate": "2025-06-17",
+      "cover": "https://via.placeholder.com/150?text=Digital+Dusk"
+    },
+    {
+      "id": 7,
+      "title": "Northern Lights",
+      "artist": "Polar Sounds",
+      "genre": "Indie",
+      "releaseDate": "2023-01-09",
+      "cover": "https://via.placeholder.com/150?text=Northern+Lights"
+    },
+    {
+      "id": 8,
+      "title": "Velvet Vibes",
+      "artist": "Night Bloom",
+      "genre": "Jazz",
+      "releaseDate": "2024-08-22",
+      "cover": "https://via.placeholder.com/150?text=Velvet+Vibes"
+    },
+    {
+      "id": 9,
+      "title": "Sunset Mirage",
+      "artist": "Desert Rose",
+      "genre": "World",
+      "releaseDate": "2022-07-30",
+      "cover": "https://via.placeholder.com/150?text=Sunset+Mirage"
+    },
+    {
+      "id": 10,
+      "title": "Infinite Skies",
+      "artist": "SkyFlow",
+      "genre": "Trance",
+      "releaseDate": "2024-11-11",
+      "cover": "https://via.placeholder.com/150?text=Infinite+Skies"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Memory Drift",
+      "director": "Juno Sparks",
+      "genre": "Sci-Fi",
+      "releaseDate": "2024-12-01",
+      "rating": 8.4,
+      "poster": "https://via.placeholder.com/150?text=Memory+Drift"
+    },
+    {
+      "id": 2,
+      "title": "Shadows of Verona",
+      "director": "Leo Marquez",
+      "genre": "Drama",
+      "releaseDate": "2023-09-17",
+      "rating": 7.2,
+      "poster": "https://via.placeholder.com/150?text=Shadows+of+Verona"
+    },
+    {
+      "id": 3,
+      "title": "Parallel Hearts",
+      "director": "Mira Lane",
+      "genre": "Romance",
+      "releaseDate": "2022-02-14",
+      "rating": 7.9,
+      "poster": "https://via.placeholder.com/150?text=Parallel+Hearts"
+    },
+    {
+      "id": 4,
+      "title": "TimeSplit",
+      "director": "Dex Rivers",
+      "genre": "Thriller",
+      "releaseDate": "2023-11-11",
+      "rating": 8.1,
+      "poster": "https://via.placeholder.com/150?text=TimeSplit"
+    },
+    {
+      "id": 5,
+      "title": "Under Neon Skies",
+      "director": "Sasha Lin",
+      "genre": "Mystery",
+      "releaseDate": "2024-04-06",
+      "rating": 7.6,
+      "poster": "https://via.placeholder.com/150?text=Under+Neon+Skies"
+    },
+    {
+      "id": 6,
+      "title": "Code Zero",
+      "director": "Max Kline",
+      "genre": "Action",
+      "releaseDate": "2023-08-29",
+      "rating": 7.8,
+      "poster": "https://via.placeholder.com/150?text=Code+Zero"
+    },
+    {
+      "id": 7,
+      "title": "Wavelength",
+      "director": "Rosa Kim",
+      "genre": "Sci-Fi",
+      "releaseDate": "2025-01-05",
+      "rating": 8.6,
+      "poster": "https://via.placeholder.com/150?text=Wavelength"
+    },
+    {
+      "id": 8,
+      "title": "The Glass Court",
+      "director": "Ibrahim Nash",
+      "genre": "Drama",
+      "releaseDate": "2022-06-10",
+      "rating": 7.1,
+      "poster": "https://via.placeholder.com/150?text=The+Glass+Court"
+    },
+    {
+      "id": 9,
+      "title": "Whispers in the Fog",
+      "director": "Nina Armitage",
+      "genre": "Horror",
+      "releaseDate": "2024-10-31",
+      "rating": 6.9,
+      "poster": "https://via.placeholder.com/150?text=Whispers+in+the+Fog"
+    },
+    {
+      "id": 10,
+      "title": "Nova Genesis",
+      "director": "Kai Mendoza",
+      "genre": "Sci-Fi",
+      "releaseDate": "2025-06-20",
+      "rating": 9.0,
+      "poster": "https://via.placeholder.com/150?text=Nova+Genesis"
+    }
+  ]
+}
