@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
         <nav className="flex items-center justify-between p-4 border-b-3 border-b-black bg-gradient-to-l from-gray-900 to-[#800020] text-white">
             {/* Logo and Title */}
             <div className="flex items-center space-x-4">
-                <img src="/assets/pics/onlyLogo.png" alt="Logo" style={{ width: '90px', height: '50px' }} />
+                <Image src="/assets/pics/onlyLogo.PNG" alt="Logo" width={90} height={50} className="hidden md:block" />
                 <h1 className="font-bold text-4xl">NeUto</h1>
             </div>
 
