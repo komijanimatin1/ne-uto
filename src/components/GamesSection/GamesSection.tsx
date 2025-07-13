@@ -1,6 +1,7 @@
 import NewsBanner from "../News/NewsBanner";
+import ScrolledNews from "../News/ScrolledNews";
 
-const importantNews =  [
+const importantNews = [
 
   {
     title: "Final Fantasy 9 Anniversary Video Refuels Rumors Of A Remake",
@@ -49,8 +50,9 @@ const importantNews =  [
 
 export default function GamesSection() {
   return (
-    <section className="w-full bg-[#490013] py-6">
-      <div className="flex overflow-x-auto gap-4 px-4 hide-scrollbar">
+    <section className="w-full py-6">
+      {/* important news secrion */}
+      <div className="flex overflow-x-auto gap-4 p-4 hide-scrollbar bg-[#490013]">
         {importantNews.map((news, index) => (
           <NewsBanner
             key={index}
@@ -63,6 +65,11 @@ export default function GamesSection() {
             content={news.content}
           />
         ))}
+      </div>
+
+      {/* other news section */}
+      <div>
+        <ScrolledNews data={importantNews} sectionTitle="Other Game News"/>
       </div>
     </section>
   );

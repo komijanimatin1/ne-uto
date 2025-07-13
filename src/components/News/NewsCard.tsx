@@ -15,14 +15,14 @@ interface NewsCardProps {
 }
 
 export default function NewsCard({ news }: NewsCardProps) {
-  const { title, content, link } = news;
+  const { title, content, link, author, pubDate, source } = news;
 
   // Limit description to 15 words
   const shortDescription =
-    content.split(" ").slice(0, 10).join(" ") + "...";
+    content.split(" ").slice(0, 15).join(" ") + "...";
 
   return (
-    <div className=" w-64 rounded-3xl flex flex-col bg-white shadow-sm hover:shadow-md transition-shadow border border-gray-200">
+    <div className="w-64 rounded-3xl flex flex-col bg-white shadow-sm hover:shadow-md transition-shadow border border-gray-200">
       {/* Image */}
       <div className="relative bg-[#800020] w-full h-48 rounded-t-3xl overflow-hidden">
         <Image
@@ -40,8 +40,17 @@ export default function NewsCard({ news }: NewsCardProps) {
         </h2>
         <p className="text-sm text-gray-600">{shortDescription}</p>
 
+        {/* Optional metadata */}
+        <div className="text-xs text-gray-400 mt-1">
+          {author && <span>By {author}</span>}
+          {pubDate && <span> • {new Date(pubDate).toLocaleDateString()}</span>}
+          {source && <span> • {source}</span>}
+        </div>
+
         <Link
           href={link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-gray-600 flex items-center gap-1 mt-2 hover:text-gray-800 transition-colors"
         >
           Read more
